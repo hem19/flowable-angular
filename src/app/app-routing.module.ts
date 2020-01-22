@@ -4,12 +4,14 @@ import {AppComponent} from 'src/app/app.component';
 import {ApplyLeaveFormComponent} from 'src/app/apply-leave-form/apply-leave-form.component';
 import {ApproveLeaveFormComponent} from 'src/app/approve-leave-form/approve-leave-form.component';
 import {DynamicFormComponent} from 'src/app/dynamic-form/dynamic-form.component';
+import {FlowableIframeComponent} from 'src/app/flowable-iframe/flowable-iframe.component';
 
 const routes: Routes = [
   // {path: 'home', component: AppComponent},
   { path: 'apply-leave-form', component: ApplyLeaveFormComponent },
   { path: 'approve-leave-form', component: ApproveLeaveFormComponent },
   { path: 'dynamic-form', component: DynamicFormComponent },
+  { path: 'flowable-iframe', component: FlowableIframeComponent},
   { path: '', redirectTo: './', pathMatch: 'full' }
 ];
 

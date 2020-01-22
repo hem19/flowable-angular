@@ -1,0 +1,22 @@
+{
+    "/flowable-task": {
+      "target": "http://localhost:8080",
+      "secure": false,
+      "logLevel": "debug"
+    },
+    "/flowable-rest": {
+      "target": "http://localhost:8080",
+      "secure": false,
+      "logLevel": "debug"
+    },
+    "/flowable-idm": {
+      "target": "http://localhost:8080",
+      "secure": false,
+      "logLevel": "debug"
+    },
+    "/flowable-modeler": {
+      "target": "http://localhost:8080",
+      "secure": false,
+      "logLevel": "debug"
+    }
+  }

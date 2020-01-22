@@ -1,0 +1,3 @@
+<div *ngIf="formKey === 'noTasks'">No tasks found</div>
+<apply-leave-form *ngIf="formKey === 'frmApplyLeave'" (taskChanged)="onTaskChanged($event)"></apply-leave-form>
+<approve-leave-form *ngIf="formKey === 'frmApproveLeave'" (taskChanged)="onTaskChanged($event)"></approve-leave-form>
